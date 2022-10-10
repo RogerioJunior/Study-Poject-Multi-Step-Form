@@ -1,8 +1,11 @@
 import { Router } from "./router";
+import { FormProvider } from "./contexts/FormContext";
 
 function App() {
   return (
-    <Router />
+    <FormProvider>
+      <Router />
+    </FormProvider>
   );
 }
 
