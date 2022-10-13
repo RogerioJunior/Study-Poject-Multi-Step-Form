@@ -53,7 +53,7 @@ export const FormStep2 = () => {
         <SelectOption
           title="Sou programador"
           description="Já programo há 2 anos ou mais "
-          icon="😬"
+          icon="🥴"
           selected={inputLevel === 1}
           onClick={() => setInputLevel(1)}
         />
