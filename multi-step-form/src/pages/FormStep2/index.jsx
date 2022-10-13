@@ -22,7 +22,7 @@ export const FormStep2 = () => {
   }, []);
 
   const handleNextStep = () => {
-    if (inputLevel !== "") {
+    if (data.name !== "") {
       setData({ ...data, level: inputLevel });
       navigate("/step3");
     } else {
