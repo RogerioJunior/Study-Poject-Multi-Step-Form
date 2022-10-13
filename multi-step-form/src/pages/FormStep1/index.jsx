@@ -19,6 +19,7 @@ export const FormStep1 = () => {
 
     const handleNextStep = () => {
         if(inputName !== "") {
+            setData({ ...data, name: inputName});
             navigate('/step2');
         }else {
             alert("Preencha os dados!");
